@@ -1,0 +1,128 @@
+PASSWORD STRENGTH ANALYZER - COMPLETE SETUP GUIDE
+================================================
+
+Project Type : Mini
+Difficulty   : Beginner
+Category     : Cyber Security
+Technology   : HTML, CSS, JavaScript
+
+1. REQUIREMENTS
+---------------
+You only need a modern web browser:
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+
+No installation is required.
+
+You do NOT need:
+- Node.js
+- npm
+- PHP
+- XAMPP
+- MySQL
+- Python
+- Java
+- Any package manager
+
+2. DOWNLOAD AND EXTRACT
+-----------------------
+Step 1: Download the ZIP.
+Step 2: Extract the ZIP using "Extract All".
+Step 3: Open the extracted "password-strength-analyzer" folder.
+
+The folder should contain:
+
+password-strength-analyzer/
+  index.html
+  run.bat
+  README.md
+  SETUP_GUIDE.txt
+  assets/
+    app.js
+    style.css
+
+3. START THE APPLICATION
+------------------------
+Option A:
+Double-click "index.html".
+
+Option B:
+Double-click "run.bat".
+
+The application will open in your default browser.
+
+4. HOW TO USE
+-------------
+1. Enter a password in the input box.
+2. The analysis updates in real time.
+3. Review the score and strength label.
+4. Review the Strength Criteria section.
+5. Read the Improvement Suggestions.
+6. Use "Show" or "Hide" to view/hide the entered value.
+7. Use "Clear" to remove the value from the page.
+
+5. WHAT THE TOOL CHECKS
+-----------------------
+The analyzer checks:
+- Password length
+- Lowercase letters
+- Uppercase letters
+- Numbers
+- Special characters
+- Character variety
+- Repeated characters
+- Simple sequences
+- A small built-in list of common passwords
+
+6. PRIVACY
+----------
+The password is processed locally by JavaScript in the browser.
+
+This project does not:
+- send passwords to a server
+- call an external API
+- save passwords to a database
+- upload passwords to a website
+
+The password is not intentionally persisted by this application.
+
+7. TROUBLESHOOTING
+------------------
+If the page does not work:
+- Make sure the ZIP was fully extracted.
+- Keep the "assets" folder next to "index.html".
+- Do not rename or move the files inside "assets".
+- Refresh the browser.
+- Try Chrome, Edge, or Firefox.
+
+If CSS is missing:
+- Confirm that assets/style.css exists.
+
+If the analyzer does not respond:
+- Confirm that assets/app.js exists.
+- Refresh the page.
+
+8. IMPORTANT SECURITY NOTICE
+----------------------------
+This is an educational password-strength analyzer.
+
+It is NOT:
+- a password manager
+- a password cracking tool
+- a breach database checker
+- an authentication system
+- a cryptographic proof of password security
+
+The score is a heuristic estimate based on simple local checks. A high score does not guarantee that a password cannot be guessed or cracked.
+
+For real accounts, use unique passwords and a reputable password manager.
+
+9. PROJECT LANGUAGE
+-------------------
+The user interface, README, and setup documentation are written in English.
+
+10. PROJECT LICENSE / USAGE
+---------------------------
+This project is provided as an educational demo. Review and add your own license if you publish it as open-source or redistribute it.

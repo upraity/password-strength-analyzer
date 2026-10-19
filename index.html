@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A privacy-first password strength analyzer that runs entirely in your browser.">
+  <title>Password Strength Analyzer</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="eyebrow">Cyber Security • Mini Project</div>
+      <h1>Password Strength Analyzer</h1>
+      <p>Analyze password strength locally and get practical suggestions for improvement.</p>
+    </header>
+
+    <section class="privacy">
+      <div class="privacy-icon">✓</div>
+      <div>
+        <strong>Your password stays in your browser</strong>
+        <p>This tool performs analysis locally with JavaScript. It does not send your password to a server, API, or database.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label for="password">Enter a password to analyze</label>
+      <div class="input-row">
+        <input id="password" type="password" autocomplete="new-password" placeholder="Type or paste a password">
+        <button id="toggleBtn" type="button" class="secondary">Show</button>
+        <button id="clearBtn" type="button" class="secondary">Clear</button>
+      </div>
+      <div class="meter" aria-label="Password strength">
+        <div id="meterFill"></div>
+      </div>
+      <div class="score-row">
+        <strong id="strengthLabel">No password</strong>
+        <span id="scoreText">Score: 0/100</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Strength Criteria</h2>
+        <div id="criteria" class="criteria"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Improvement Suggestions</h2>
+        <ul id="suggestions" class="suggestions">
+          <li>Enter a password to see suggestions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Analysis Details</h2>
+      <div class="details">
+        <div><span>Length</span><strong id="lengthValue">0</strong></div>
+        <div><span>Unique Characters</span><strong id="uniqueValue">0</strong></div>
+        <div><span>Character Variety</span><strong id="varietyValue">0/4</strong></div>
+        <div><span>Pattern Warning</span><strong id="patternValue">None</strong></div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <strong>Security note</strong>
+      <p>This is an educational strength estimator, not a guarantee that a password is unbreakable. Avoid entering passwords that you currently use for important accounts if you do not need to test them.</p>
+    </section>
+
+    <footer>
+      Password Strength Analyzer • HTML, CSS & JavaScript • No server-side password processing
+    </footer>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>

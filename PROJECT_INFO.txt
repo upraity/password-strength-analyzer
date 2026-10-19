@@ -1,0 +1,13 @@
+PASSWORD STRENGTH ANALYZER
+=========================
+
+Type       : Mini
+Difficulty : Beginner
+Category   : Cyber Security
+Stack      : HTML + CSS + JavaScript
+
+Runtime    : Browser only
+Backend    : None
+Database   : None
+External API: None
+Network password submission: None
